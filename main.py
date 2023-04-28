@@ -1,5 +1,5 @@
-# Jordan Martin
-# Create a code to inform the reader about soccer
+"""# Jordan Martin
+# Create a code to inform the reader about soccer"""
 print('Hello this is Jordan Martin and this code will show you all about '
       'Soccer.')
 print("Soccer was the sport I played when I was growing up all the way until"
@@ -39,12 +39,15 @@ print("The second number is the midfielders and the last number "
       "is the forwards.")
 print("To me I think it is pretty cool the way formations are since "
       "it gives each team their own style.")
-print("Well let's have a little math quiz with formations.")
+print("Well let's have a little math quiz with formations."
+      " For these questions please answer with numbers ex:1 #Note how there "
+      "are no letters")
 Q1 = input("How much forwards are in a 4-2-4?")
 # The numbers below are numeric operators which do math with +
 # as addition,- as subtraction,* as multiplication
 # / as division, ** for exponents, % for returning remainder,
 # and // is for floor division
+# In this next section is another little quiz to keep reader involved
 if Q1 == (11 - 7) or Q1 == 4:
     print("Correct")
 else:
@@ -62,10 +65,10 @@ else:
     print("The answer is 7 ")
 print("How did you do on the quiz.", "If you did good than I'm glad you "
                                      "understand the formations.)")
+# In the next paragraph more rules to the game will be mentioned
 print("This may seem like a lot, but this is just the start of understanding"
       " the sport.")
-print("This would probably be a good time to start with the rules of soccer.",
-      end='\n')
+print("This would probably be a good time to start with the rules of soccer.")
 print("The rules are pretty basic, but it can get confusing if you have"
       " never played a sport.")
 print("The first rule everyone should know is not to use your "
@@ -99,14 +102,17 @@ print("If the player does not follow these rules they get a foul called "
 print("The cards represent a penalty system, and in this penalty system "
       "if u receive 2 yellow cards or 1 red card you ")
 print("will get sent off.")
+# A little question about the value of the red and yellow cards
 Value_quiz = input("So in this penalty system what is the number value of "
-                   "a yellow card compared to a red card")
+                   "a yellow card compared to a red card? "
+                   "#Once again type numbers with no letters.")
 if not Value_quiz != 2:
     print("That is correct")
 elif Value_quiz == 3 or 1:
     print("Close the answer is 2 ")
 else:
     print("Incorrect, the answer is 2")
+# Now how the cards affect the sport is mentioned
 print("The cards make it important to be careful with fouls as once a player"
       " gets sent off the team plays a man down")
 print("For the rest of the game, which in competitive games becomes an "
@@ -138,7 +144,8 @@ print("This shows how goalkeepers can get favoured in non favourable"
       " situations.")
 print("Let's see what you remember about formations ")
 Formation_quest = int(input("What is a good number for forwards in a "
-                            "formation? # hint 0 is not good"))
+                            "formation?(Please type a number without letters) "
+                            "# hint 0 is not good"))
 if 4 >= Formation_quest >= 1:
     print("Great that's a good number")
 else:
@@ -154,10 +161,12 @@ it needs to be mentioned again
     print("In formations it is important to understand your team before"
           " employing a specific formation.")
     print("If your team has players who are like to attack together you may "
-          "want 3-4 forwards, nut if you have players")
+          "want 3-4 forwards, but if you have players")
     print("who want or are good at creating chances themselves you may want"
-          " 1 forward to allow more power in other ")
+          " 1 forward to allow more power in the ", end='other ')
     print("positions.")
 
 
 describe_formations()
+print("That is all for now thank you for reading and hope you want to learn "
+      "more about soccer.")
