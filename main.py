@@ -170,3 +170,20 @@ it needs to be mentioned again
 describe_formations()
 print("That is all for now thank you for reading and hope you want to learn "
       "more about soccer.")
+
+
+def for_whileloop():
+    """This is a function uses for and while loops required"""
+    # Asks viewer if they had fun
+    fun = "Did you have fun reading."
+    for x in fun:
+        print(x)
+    # These are numbers I picked to display a while loop, and they are also
+    # Recommended numbers for forwards.
+    y = 1
+    z = 4
+
+    # while loop from y = 1 to 4
+    while y <= z:
+        print(y)
+        y += 1
